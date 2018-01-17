@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Oswald'); 
 
+body {
+    margin: 0;
+}
+
 #hero {
   background-image: url("../images/pexels-photo-41227.jpg");
   background-repeat: no-repeat;
   background-size: cover; 
-  text-align: center;
+  text-align: right;
   font-family: helvetica;
   color: #fff;
+  height: 800px;
 }
 
 h1 {
@@ -49,4 +54,5 @@ a:hover {
   letter-spacing: .5px;
   margin-top: -1.25em;
   font-size: 1.4em;
+  text-align: center;
 }
