@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Oswald'); 
+
+body {
+    margin: 0;
+    font-size: 1em;
+}
+
+#hero {
+  background-image: url("../images/pexels-photo-41227.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: right;
+  font-family: helvetica;
+  color: #fff;
+  height: 800px;
+}
+
+h1 {
+  font-family: Oswald, Arial; 
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 3.75em;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+li {
+  display: inline;
+}
+
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visted {
+  color: #fff;
+}
+
+a:hover {
+  color: #ededed; 
+}
+
+
+#slogan {
+  font-family: 'Cormorant Garamond', serif; 
+  letter-spacing: .5px;
+  margin-top: -1.25em;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+
+
+
+.image-wrap {
+    padding: 1.5em;
+    width: auto;
+}
+
+
+
+.sample_1 {
+    padding: 1em;
+    float: left;
+    margin: .5em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
